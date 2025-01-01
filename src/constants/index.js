@@ -13,18 +13,16 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  carrent,
-  jobit,
   tripguide,
-  threejs
 } from "../assets";
 
 import celectLogo from '../assets/company/celectcep.png'
 import iitLogo from '../assets/company/iit.png'
 import javaLogo from '../assets/tech/javalogo.png'
 import expressLogo from '../assets/tech/expresslogo.png'
+import affiliatePicture from '../assets/affiliate.png'
+import blitzPicture from '../assets/blitzTV.png'
+import finePayPicture from '../assets/finePay.webp'
 
 export const navLinks = [
   {
@@ -154,7 +152,7 @@ const projects = [
   {
     name: "Affiliate",
     description:
-      "A web platform where users can explore and buy their favorite and trending clothes with a simple click on any product.",
+      "A web platform where users can explore and buy their favorite and trending clothes with a simple click on any product. You can automatically forwarded to official page.",
     tags: [
       {
         name: "react",
@@ -173,41 +171,45 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: affiliatePicture,
+    source_code_link: "https://github.com/Dev2927?tab=repositories",
   },
   {
-    name: "Job IT",
+    name: "BlitzTv",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A YouTube-inspired platform, allowing users to upload, like, and comment on videos. Implemented robust user authentication functionalities and seamless user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node-js",
         color: "pink-text-gradient",
       },
+      {
+        name: "express-js",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blitzPicture,
+    source_code_link: "https://github.com/Dev2927/youtubeClone",
   },
   {
-    name: "Trip Guide",
+    name: "Fine Pay",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-native-paper",
         color: "green-text-gradient",
       },
       {
@@ -215,8 +217,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: finePayPicture,
+    source_code_link: "https://github.com/Dev2927?tab=repositories",
   },
 ];
 

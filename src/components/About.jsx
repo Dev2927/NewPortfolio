@@ -49,7 +49,7 @@ const About = () => {
         Hi, I'm Dev Anand, a dedicated and results-oriented software developer
         with a strong passion for technology and innovation. I specialize in
         TypeScript and JavaScript, with extensive expertise in frameworks like
-        React, Node.js, and Express.js. Since October 2024, I have been working
+        React, Node.js, and Express.js. Since October 2023, I have been working
         professionally as a software developer, contributing to production-grade
         projects and implementing industry best practices to deliver scalable,
         high-quality solutions.<br className='sm:block hidden' />
